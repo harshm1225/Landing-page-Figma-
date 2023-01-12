@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/**************************/
+/* NAVBAR */
+/**************************/
+header {
+  height: 80px;
+  width: 1920px;
+  position: relative;
+  background: linear-gradient(180deg, #02ae9c 0%, #12dcc6 100%);
+}
+nav {
+  height: 80px;
+  width: 1919px;
+  position: absolute;
+  background: rgba(217, 217, 217, 0.45);
+}
+.left-nav-icon {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  left: 108px;
+  top: 20px;
+  margin-right: 85px;
+}
+.nav-items {
+  position: absolute;
+  height: 48px;
+  width: 619px;
+  left: 233px;
+  top: 17px;
+  display: flex;
+  gap: 52px;
+}
+.home,
+.your-trip,
+.about-us,
+.shop {
+  height: 48px;
+  font-family: "Poppins", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+}
+.home {
+  width: 86px;
+}
+.your-trip {
+  width: 123px;
+}
+.about-us {
+  width: 127px;
+}
+.shop {
+  width: 127px;
+}
+.right-nav-icon {
+  position: absolute;
+  height: 63px;
+  width: 118.83px;
+  left: 1737px;
+  top: 10px;
+}
+/**************************/
+/* CONTAINER */
+/**************************/
+.container {
+  height: 999px;
+  width: 1919px;
+  background-image: url(img/background-mountain-img.png);
+  background-repeat: no-repeat;
+  background-position: absolute;
+  background-position-x: 2px;
+  background-position-y: 319px;
+  background-color: #02ae9c;
+}
+.welcome-text,
+.lets-enjoy-text,
+span {
+  position: absolute;
+}
+.welcome-text,
+.lets-enjoy-text,
+span {
+  font-weight: 400;
+  font-size: 50px;
+}
+.welcome-text {
+  height: 113px;
+  width: 643px;
+  left: 638px;
+  top: 125px;
+  font-family: "Adamina", serif;
+  line-height: 68px;
+  color: white;
+}
+.lets-enjoy-text {
+  height: 51px;
+  width: 681px;
+  left: 619px;
+  top: 238px;
+  font-family: "Abel", sans-serif;
+}
+span {
+  height: 51px;
+  width: 386px;
+  left: 914px;
+  top: 238px;
+  font-family: "Adamina", serif;
+}
+.make-trip-text,
+.sub-text,
+.get-started-btn,
+.social-sites {
+  position: absolute;
+}
+.make-trip-text {
+  height: 83px;
+  width: 518px;
+  left: 183px;
+  top: 446px;
+  font-family: "Adamina", serif;
+  font-size: 53px;
+  font-weight: 400;
+  color: white;
+}
+.sub-text {
+  height: 56px;
+  width: 448px;
+  left: 184px;
+  top: 570px;
+  font-family: "Adamina", serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 41px;
+  color: #ffffff;
+}
+
+.get-started-btn {
+  height: 89px;
+  width: 256px;
+  left: 183px;
+  top: 806px;
+  border-radius: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 4px 4px #00000080;
+  background-color: #02ae9c;
+}
+/**************************/
+/* SOCIAL SITES SECTION */
+/**************************/
+.social-sites {
+  height: 385.56px;
+  width: 91.56px;
+  left: 1762px;
+  top: 438px;
+}
